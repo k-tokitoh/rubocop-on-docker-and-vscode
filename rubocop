@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker exec rubocop-on-docker-and-vscode rubocop -a
+docker exec rubocop-on-docker-and-vscode rubocop-daemon exec -- --auto-correct
